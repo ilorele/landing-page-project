@@ -77,25 +77,33 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 48px 32px 64px 32px;
 }
 
 .content-header {
     color: #1f2937;
     font-size: 48px;
     font-weight: 900;
-    margin: 48px 0;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.content-item-container {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
 }
 
 .content-item {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 160px;
+    width: 170px;
 }
 
 .content-image {
     box-sizing: border-box;
-    height: 160px;
+    height: 170px;
     border: solid #3882f6 4px;
     border-radius: 16px;
     object-fit: cover;
@@ -106,3 +114,20 @@ body {
     margin: 0 4px;
 }
 
+/* QUOTE SECTION */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
