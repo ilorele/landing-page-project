@@ -51,13 +51,17 @@ body {
     background-color: rgb(109, 114, 124);
 }
 
-.header-button {
+.header-button,
+.call-button {
+    box-sizing: border-box;
+    font-size: 18px;
     color: #f9faf8;
     background-color: #3882f6;
     border-radius: 5px;
     border: 0;
     font-weight: bold;
-    padding: 4px 24px;
+    padding: 4px 32px;
+    height: 32px;
     margin-top: 10px;
 }
 
@@ -146,3 +150,29 @@ body {
     font-weight: bold;
 }
 
+/* CALL TO ACTION SECTION */
+
+.call {
+    box-sizing: border-box;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 8px;
+    color: #f9faf8;
+    margin: 64px auto;
+    padding: 42px 64px;
+}
+
+.call-text-big {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.call-button {
+    margin: 0;
+    border: solid 1px;
+    align-self: flex-end;
+}
