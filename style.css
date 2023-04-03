@@ -61,7 +61,6 @@ body {
     border: 0;
     font-weight: bold;
     padding: 4px 32px;
-    height: 32px;
     margin-top: 10px;
 }
 
@@ -175,4 +174,13 @@ body {
     margin: 0;
     border: solid 1px;
     align-self: flex-end;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    color: #f9faf8;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 24px 0;
 }
