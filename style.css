@@ -184,3 +184,9 @@ footer {
     text-align: center;
     padding: 24px 0;
 }
+
+.header-button:hover,
+.call-button:hover {
+    background-color: #143c7c;
+    cursor: pointer;
+}
