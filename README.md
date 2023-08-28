@@ -1,6 +1,5 @@
-# landing-page-project
-This is my first flexbox project.
-I will create a landing page using skills learned from The Odin Project foundations course.
+# Landing Page
+This is my first flexbox project. I created a landing page using skills learned from The Odin Project foundations course.
 
 Downloaded free images: 
 -pexels-airam-datoon-3389817.jpg
