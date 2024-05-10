@@ -39,9 +39,8 @@ body {
     font-size: 24px;
 }
 
-.bottom-text,
-.image-header {
-    flex-basis: 390px; /* Maybe change to width later */
+.bottom-text {
+    flex-basis: 390px;
 }
 
 .image-header {
@@ -49,6 +48,11 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(109, 114, 124);
+}
+
+.image-header > img {
+    width: 390px;
+    object-fit: cover;
 }
 
 .header-button,
